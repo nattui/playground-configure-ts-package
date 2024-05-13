@@ -1,0 +1,21 @@
+{
+  "name": "@nattui/playground-configure-ts-package",
+  "version": "1.0.0",
+  "description": "Learning how to configure a TS package",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bunchee",
+    "dev": "bunchee --watch",
+    "project:sort": "pnpx sort-package-json",
+    "project:update": "pnpm update"
+  },
+  "devDependencies": {
+    "bunchee": "^5.1.5",
+    "typescript": "^5.4.5"
+  }
+}
