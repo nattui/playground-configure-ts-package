@@ -18,5 +18,7 @@
     "titleBar.inactiveBackground": "#12730699",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#127306"
+  "peacock.color": "#127306",
+  // Formatting
+  "files.trimTrailingWhitespace": true
 }
